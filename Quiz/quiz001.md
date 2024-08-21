@@ -2,7 +2,7 @@
 
 ## Paper solution
 '''.py
-
+print("Hello world")
 '''
 ## Code
 
