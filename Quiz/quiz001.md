@@ -1,10 +1,10 @@
 # Quiz 001
 
 ## Paper solution
+
+## Code
 '''.py
 print("Hello world")
 '''
-## Code
-
 
 ## Proof of work
