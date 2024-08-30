@@ -3,7 +3,7 @@
 ## Paper solution
 
 ## Code
-'''.py
+```.py
 n=input()
 n=str(n)
 lst=n.split()
@@ -16,6 +16,6 @@ for i in lst:
     print (ans, end=" ")
 
 
-'''
+```
 
 ## Proof of work
