@@ -7,17 +7,17 @@
 
 ## Codes
 1.
-'''.py
+```.py
 
       h1,h2,h3=map(int,input().split())
       m=max(h1,h2,h3)
       n=min(h1,h2,h3)
       l=h1+h2+h3-m-n
       print(m,l,n)
-'''
+```
 
 2.
-'''.py
+```.py
 
       salary=int(input("Enter your salary: "))
       if salary>=0 and salary<=10000:
@@ -28,9 +28,9 @@
           print(salary*0.15)
       if salary>100000:
           print(salary/4)
-'''
+```
 3.
-'''.py
+```.py
 
     a,b,c=map(str,input("Enter names: ").split())
     if a[0]==b[0] and b[0]==c[0]:
@@ -58,10 +58,10 @@
           print(c,b,a)
     if c[0]==b[0] and a[0]<c[0]:
           print(a,c,b)
-
+```
 
 4.
-'''.py
+```.py
 
       lst = []
       num= int(input("Enter number of scores : "))
@@ -74,4 +74,4 @@
       if num==5:
           print ("median:",lst[2])
 
-'''
+```
