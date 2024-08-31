@@ -4,8 +4,7 @@
 
 ## Code
 ```.py
-n=input()
-n=str(n)
+n=input("Enter the input: ")
 lst=n.split()
 for i in lst:
     lst1=list(i)
@@ -19,3 +18,7 @@ for i in lst:
 ```
 
 ## Proof of work
+
+
+## Algorithm flow
+
