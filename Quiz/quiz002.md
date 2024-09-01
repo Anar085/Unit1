@@ -1,4 +1,4 @@
-# Quiz 001
+# Quiz 002
 
 ## Paper solution
 
