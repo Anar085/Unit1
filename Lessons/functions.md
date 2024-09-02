@@ -71,3 +71,20 @@ def mystery_box1(msg, cond):
 n= mystery_box1(msg="Enter the message",cond="Enter True/False")
 print(n)
 ```
+## MB3
+```.py
+def mystery_box3(lst):
+    lst=[]
+    for i in range(3):
+        x=int(input())
+        lst.append(x)
+    s=0
+    for r in range(3):
+        s=s+lst[r]
+    midd=s-max(lst)-min(lst)
+    output=midd*max(lst)
+    return output
+n=mystery_box3(lst="Enter the list: ")
+print(n)
+```
+```
