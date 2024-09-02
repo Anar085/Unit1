@@ -48,4 +48,26 @@ n=mystery_box2(msg="Enter your email: ")
 print(n)
 
 ```
-
+## MB1
+```.py
+def mystery_box1(msg, cond):
+    word=input(msg)
+    cond=bool(input())
+    s=len(word)
+    if cond is False:
+        output=''
+        for i in range(s-1,-1,-1):
+            output.append(word[i])
+    else:
+        ls1='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+        ls2='abcdefghiklmnopqrstuvwxyz'
+        for x in range (26):
+            if ls1[x] in word:
+                word[x]=ls2[x]
+        output=''
+        for r in range(s-1,-1,-1):
+            output.append(word[r])
+    return output
+n= mystery_box1(msg="Enter the message",cond="Enter True/False")
+print(n)
+```
