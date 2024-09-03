@@ -78,13 +78,40 @@ def mystery_box3(lst):
     for i in range(3):
         x=int(input())
         lst.append(x)
-    s=0
-    for r in range(3):
-        s=s+lst[r]
-    midd=s-max(lst)-min(lst)
-    output=midd*max(lst)
-    return output
+    factors1=[]
+    for j in range (2,lst[0]+1):
+        for h in range(2,j+1):
+            if j%h!=0
+        if lst[0]%j==0:
+            factors1.append(j)
+    factors2=[]
+    for p in range (2,lst[1]+1):
+        if lst[1]%p==0:
+            factors2.append(p)
+    factors3=[]
+    for z in range (2,lst[2]+1):
+        if lst[2]%z==0:
+            factors3.append(z)
+    comdiv=[]
+    for div in factors1:
+        if div not in factors2 and  factors3:
+            comdiv.append(div)
+    for div in factors2:
+        if div not in factors1 and  factors3:
+            comdiv.append(div)
+    for div in factors3:
+        if div not in factors2 and not factors1:
+            comdiv.append(div)
+    p=1
+    for g in range(len(comdiv)):
+        p=p*comdiv[g]
+    for k in range(len(comdiv)):
+        if comdiv[k]%comdiv[k+1]:
+            del comdiv[k+1]
+    return comdiv
+
+    
 n=mystery_box3(lst="Enter the list: ")
 print(n)
 ```
-```
+
