@@ -22,6 +22,7 @@ else:
 ```
 
 ## Proof of work
+(https://github.com/user-attachments/assets/039692af-e632-4e31-b0f2-821cca1bf8ac)
 
 
 ## Algorithm flow
