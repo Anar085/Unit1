@@ -1,6 +1,7 @@
 # Quiz 003
 
 ## Paper solution
+(https://github.com/user-attachments/assets/4beddb39-1973-428e-9038-d7f876a22105)
 
 ## Code
 ```.py
