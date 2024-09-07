@@ -19,13 +19,16 @@ if cond is False:
 else:
     result=""
     for i in range(n):
-        num1=random.randint(0,73)
+        num1=random.randint(0,72)
         result+=str(symbols[num1])
-print(result)
+class colors:
+    red="\33[0;31m"
+print(f"{colors.red} This is in red: {result}")
 
 ```
 
 ## Proof of work
+(https://github.com/user-attachments/assets/23213974-6832-446c-b318-1f919d70379c)
 
 
 ## Algorithm flow
