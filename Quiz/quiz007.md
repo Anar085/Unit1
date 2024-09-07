@@ -5,7 +5,7 @@
 (https://github.com/user-attachments/assets/4f035b9c-3239-476d-9a3e-c26602594107)
 
 
-## Paper solution
+## Trace Tables
 
 (https://github.com/user-attachments/assets/f791e3dc-dbdb-4bfd-b8f0-fb1085f7078e)
 (https://github.com/user-attachments/assets/74020aa3-eeeb-4431-888f-f789363f33ac)
