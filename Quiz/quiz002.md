@@ -1,6 +1,7 @@
 # Quiz 002
 
 ## Paper solution
+(https://github.com/user-attachments/assets/6320722d-2304-4fdc-b451-4a926f7645c2)
 
 ## Code
 ```.py
