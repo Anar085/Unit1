@@ -32,3 +32,4 @@ print(f"{colors.red} This is in red: {result}")
 
 
 ## Algorithm flow
+(https://github.com/user-attachments/assets/78a9dea6-af43-4dd2-983c-ea943237ab9d)
