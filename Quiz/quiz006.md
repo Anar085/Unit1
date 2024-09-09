@@ -21,9 +21,10 @@ else:
     for i in range(n):
         num1=random.randint(0,72)
         result+=str(symbols[num1])
-class colors:
-    red="\33[0;31m"
-print(f"{colors.red} This is in red: {result}")
+red="\33[0;31m"
+end_code = "\033[00m"
+
+print(f"{red}{result}{end_code}")
 
 ```
 
