@@ -16,8 +16,7 @@ def hotel(floor: int, room:int, spec:int ):
     for t in range(floor*room):
         lst[t]="Room "+lst[t]
     return lst[spec-1]
-    
-m=hotel(floor=10, room=10, spec=100)
+m=hotel(floor=10, room=10, spec=int(input("Enter the room number: ")))
 print(m)
 ```
 
