@@ -2,14 +2,16 @@
 
 # Criterion B: Design
 
-## Flow diagrams for algorithms
+### System Diagram
+
+### Flow diagrams for algorithms
 
 ***   Fig. 1 ** 
 
-## Data storages
+### Data storages
 
-## Sketches of the application (wirefare)
+### Sketches of the application (wirefare diagrams)
 
-## Test plans
+### Test plans
 
-## Record of tasks
+### Record of tasks
