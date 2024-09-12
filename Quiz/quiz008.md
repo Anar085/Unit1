@@ -1,6 +1,7 @@
 # Quiz 008
 
 ## Paper solution
+![IMG_0185](https://github.com/user-attachments/assets/12e08b5d-2c03-4d0b-9ad9-9912819c4342)
 
 ## Code
 ```.py
@@ -21,6 +22,7 @@ print(m)
 ```
 
 ## Proof of work
+![Screenshot 2024-09-13 075648](https://github.com/user-attachments/assets/6b884a52-613b-4e64-9e0f-cf60480f275f)
 
 
 ## Algorithm flow
