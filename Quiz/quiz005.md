@@ -1,7 +1,9 @@
 # Quiz 005
 
 ## Paper solution
-[image](https://github.com/user-attachments/assets/5bb80aa1-6396-4d84-95e4-b671436dcbc1)
+
+
+![IMG_0172](https://github.com/user-attachments/assets/c3fc4efd-0c12-44e7-9854-5db954195743)
 
 ## Code
 ```.py
@@ -23,7 +25,13 @@ print(sum)
 ```
 
 ## Proof of work
-(https://github.com/user-attachments/assets/b5f7c9d1-5931-4c25-8c5a-802a2f9b6f85)
+
+
+![quiz 5 sc](https://github.com/user-attachments/assets/e098faa2-9f3a-4127-94cb-9f2bd0d7e7f9)
+
 
 ## Algorithm flow
-(https://github.com/user-attachments/assets/92c78053-df53-4c3f-855d-c253edabaaf6)
+
+
+![IMG_0179](https://github.com/user-attachments/assets/76eaf8b8-e9bb-48e8-b806-06ccc43f212a)
+
