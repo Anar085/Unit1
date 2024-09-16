@@ -2,8 +2,9 @@
 
 
 ## Algorithm flows
-(https://github.com/user-attachments/assets/4f035b9c-3239-476d-9a3e-c26602594107)
 
+
+![IMG_0160](https://github.com/user-attachments/assets/a0bc1aba-82d0-4c30-9f61-1755309f8485)
 
 ## Trace Tables
 
