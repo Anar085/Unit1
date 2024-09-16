@@ -1,7 +1,7 @@
 # Quiz 001
 
 ## Paper solution
-(https://github.com/user-attachments/assets/575d789b-f4c1-46c8-89ec-afabfd2fad08)
+![IMG_0168](https://github.com/user-attachments/assets/f1317451-f9d1-4d29-b5a5-2b976f27fd34)
 
 ## Code
 ```.py
