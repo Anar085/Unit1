@@ -27,4 +27,5 @@ for i in range (a):
 ![image](https://github.com/user-attachments/assets/6b158931-ac6b-46a0-a232-2ebb4d9b8a19)
 
 ## Algorithm flow
-(https://github.com/user-attachments/assets/9764bca4-05b2-4e84-a231-324d60205ba5)
+![IMG_0177](https://github.com/user-attachments/assets/10362bc6-1857-4604-b117-ac1bb3252d45)
+
