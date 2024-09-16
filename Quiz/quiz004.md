@@ -1,7 +1,7 @@
 # Quiz 004
 
 ## Paper solution
-(https://github.com/user-attachments/assets/1c323315-1b46-4592-af35-abea7c385c09)
+![IMG_0171](https://github.com/user-attachments/assets/44d93e0e-ec85-4445-b189-eeeac0c705ec)
 
 ## Code
 ```.py
@@ -22,8 +22,8 @@ else:
 ```
 
 ## Proof of work
-(https://github.com/user-attachments/assets/039692af-e632-4e31-b0f2-821cca1bf8ac)
+![quiz 4 sc](https://github.com/user-attachments/assets/de9d0622-0d32-4fb8-a4b2-8e37f099ece3)
 
 
 ## Algorithm flow
-(https://github.com/user-attachments/assets/d62167d2-7cea-4cca-9737-c7168dff118e)
+![IMG_0178](https://github.com/user-attachments/assets/f08f3370-0369-4f25-9f89-c29f4dcf7e34)
