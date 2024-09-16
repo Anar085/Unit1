@@ -29,7 +29,8 @@ print(f"{red}{result}{end_code}")
 ```
 
 ## Proof of work
-(https://github.com/user-attachments/assets/23213974-6832-446c-b318-1f919d70379c)
+![image](https://github.com/user-attachments/assets/2d31b364-01b3-44f1-9552-6693bbd6dd43)
+
 
 
 ## Algorithm flow
