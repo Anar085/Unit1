@@ -1,7 +1,7 @@
 # Quiz 003
 
 ## Paper solution
-(https://github.com/user-attachments/assets/4beddb39-1973-428e-9038-d7f876a22105)
+![IMG_0170](https://github.com/user-attachments/assets/81f4a676-8c27-423a-8295-c5ef8420ae14)
 
 ## Code
 ```.py
@@ -23,7 +23,7 @@ for i in in_pro:
 ```
 
 ## Proof of work
-(https://github.com/user-attachments/assets/1fcb36d3-f157-40a4-afeb-63d270063dac)
+![Quiz 3 sc](https://github.com/user-attachments/assets/2a9daab3-972f-4d03-a07f-0bf7eaf56714)
 
 ## Algorithm flow
 https://lucid.app/lucidchart/a9661a2f-b861-4566-90b5-6248f784fc01/edit?viewport_loc=-730%2C-190%2C4661%2C2156%2C0_0&invitationId=inv_b4a22120-f936-4075-b542-b0f98dacd86f
