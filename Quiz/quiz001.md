@@ -28,5 +28,5 @@ for i in lst:
 
 
 ## Algorithm flow
-(https://github.com/user-attachments/assets/15bf811e-bee4-447e-8d2e-db5ac7ff247b)
 
+![IMG_0175](https://github.com/user-attachments/assets/c77c514b-6cc5-420c-a55e-a6b5fa5f49df)
