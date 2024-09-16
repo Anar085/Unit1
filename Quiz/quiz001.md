@@ -24,7 +24,7 @@ for i in lst:
 ```
 
 ## Proof of work
-(https://github.com/user-attachments/assets/5b46bbba-2987-487a-a73d-ca42989f54a2)
+![image](https://github.com/user-attachments/assets/1a2261d2-7d5f-43c9-b8d2-cb2021ca9103)
 
 
 ## Algorithm flow
