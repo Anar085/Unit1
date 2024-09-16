@@ -1,7 +1,7 @@
 # Quiz 006
 
 ## Paper solution
-(https://github.com/user-attachments/assets/ed2b6634-c61e-4326-b2b9-35e252ecad94)
+![IMG_0173](https://github.com/user-attachments/assets/c47ec6dc-bec7-4ac6-b228-d31a530a44c2)
 
 ## Code
 ```.py
@@ -33,4 +33,4 @@ print(f"{red}{result}{end_code}")
 
 
 ## Algorithm flow
-(https://github.com/user-attachments/assets/78a9dea6-af43-4dd2-983c-ea943237ab9d)
+![IMG_0180](https://github.com/user-attachments/assets/f72bf0b9-d79d-40f0-8008-7a34c559afdb)
