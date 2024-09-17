@@ -16,6 +16,7 @@ My client also require permanent storage, so to solve this requirement I propose
 ## Success criteria:
 1. Basic Currency Converter Functionality:
     The currency converter is capable of converting between 5 currencies.
+   **[ISSUE TACKLED]**: 'Solved problem'
 Hidden Functionality:
 If the user enters the secret code ("open123"), the program will change modes and act as a password manager.
 In password manager mode, the user should be able to:
