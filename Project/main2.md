@@ -7,6 +7,12 @@ I have been hired by a school teacher who is in charge of school computers. Thes
 ## Proposed Solution:
 I am proposing, to resolve this problem,  to create a currency converter (which is very unattractive software application for student use) which contains a secret function that is only revealed when a hidden code is entered. Once the correct code is typed into the currency converter, it transforms into the password manager that the teacher requires. This is an  adequate solution for that teacher as it solves the problem or keeping password information both protected and hidden.
 
+To create computer applications that can run on the terminal some options are visual basic, python or C.
+I proposed to use Python because it is multi-platformm, meaning that can be used in any device (Windows, MacOs, etc) . 
+My client also require permanent storage, so to solve this requirement I proposed to use a simple .csv file in contrast to a full fledge database. This is an adequate option because it is light weight [2]...
+
+[1] Guido , Real Python, "Why python is the best" 2024. (MLA reference)
+
 ## Success criteria:
 1. Basic Currency Converter Functionality:
     The currency converter is capable of converting between 5 currencies.
