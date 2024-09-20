@@ -68,7 +68,8 @@ def calendar(month: str):
             t = i % 7
             t = (t + 5) % 7
             print(i, week_days[t - 1], end=" ")
-c=calendar(month="October")
+month=input("Enter the month")
+c=calendar(month)
 print(c)
 
 
