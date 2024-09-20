@@ -34,6 +34,7 @@ print(output)
 ```
 
 ## Proof of work
+![image](https://github.com/user-attachments/assets/0051d832-43cd-4b54-8696-8901d20d1513)
 
 
 ## Algorithm flow
