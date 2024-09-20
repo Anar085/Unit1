@@ -4,44 +4,37 @@
 
 ## Code
 ```.py
+def encryption(msg: str, shift: int):
+    shift = shift % 26
+    alp = "abcdefghijklmnopqrstuvwxyz"
+    alp2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alp=list(alp)
+    alp2=list(alp2)
 
-def encryption(msg:str, shift:int):
-    shift=shift%26
-    alp="abcdefghijklmnopqrstuvwxyz"
-    alp2="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    for i in range(len(msg)):
-        p=0
-        for x in range(len(alp)):
-            if msg[i]==alp[x]:
-                p=x+1
-        if shift>=0:
-            u=(p + shift) % 26 - 1
-            msg[i]=alp[u]
+    msgout = []
+    for char in msg:
+        if char in alp:
+            index = alp.index(char)
+            p = (index + shift) % 26
+            msgout.append(alp[p])
+        elif char.isupper():
+            index = alp2.index(char)
+            p = (index + shift) % 26
+            msgout.append(alp2[p])
         else:
-            shift=shift+26
-            u=(p + shift) % 26 - 1
-            msg[i]=alp[u]
+            msgout.append(char)
 
-    for r in range(len(msg)):
-        p = 0
-        for y in range(len(alp)):
-            if msg[r] == alp2[y]:
-                p = y + 1
-        if shift >= 0:
-            d=(p + shift) % 26 - 1
-            msg[r] = alp2[d]
-        else:
-            shift = shift + 26
-            d=(p + shift) % 26 - 1
-            msg[r] = alp2[d]
-    return msg
-m=encryption(msg="aaaaA", shift=4)
-print(m)
-
+    return msgout
+msgout = encryption(msg="aaaA", shift=-1)
+output=""
+for y in range(len(msgout)):
+    output+=msgout[y]
+print(output)
 
 ```
 
 ## Proof of work
+![image](https://github.com/user-attachments/assets/c2f1eb5c-d55d-4df5-a32c-3df16b09b916)
 
 
 ## Algorithm flow
