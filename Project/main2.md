@@ -17,14 +17,28 @@ My client also require permanent storage, so to solve this requirement I propose
 1. Basic Currency Converter Functionality:
     The currency converter is capable of converting between 5 currencies.
    **[ISSUE TACKLED]**: `Solved problem`
-Hidden Functionality:
-If the user enters the secret code ("open123"), the program will change modes and act as a password manager.
-In password manager mode, the user should be able to:
-Add a password (for example, for a website).
-View the stored passwords (only if they re-enter the secret code).
-Optionally, display the passwords in a "masked" form (e.g., showing only the first and last characters).
-Basic Security Features:
-Store passwords in a text file.
-HL: Implement a basic obfuscation technique or basic encryption (e.g., reversing the password string or shifting characters by a fixed number) 
-User Interaction:
-Use the terminal to interact with the user.
+1. If the user enters the secret code ("open123"), the program will change modes and act as a password manager.
+1. In password manager mode, the user should be able to perform CRUD operations (Create, Replace, Update, Delete):
+   * Add a password (for example, for a website).
+   * View the stored passwords (only if they re-enter the secret code).
+1. Save passwords permanently and securely
+1. Use the terminal to interact with the user.
+
+# Criterion B: Design
+### System Diagram
+**Fig 1** System Diagram showing the minimal requirement for the hardware and software used for
+proposed solution. The lock indicates encryption.
+
+
+
+### Flow diagrams for algorithms
+![flow](https://github.com/user-attachments/assets/93f4a0fb-66b8-4993-9b3d-b0b47deaeb82)
+**Fig. 1** This is the flow diagram for the algorithm used to search in the data file...
+
+### Data storage
+
+### Sketches of the application (wireframe diagrams)
+
+### Test plan
+
+## Record of Tasks
