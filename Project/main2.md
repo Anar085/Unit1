@@ -47,3 +47,13 @@ proposed solution. The lock indicates encryption.
 ### Test plan
 
 ### Record of Tasks
+| Task number | Planned action                                      | Planned outcome                                                                            | Time estimated | Target completion date | Criterion |
+|-------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------|----------------|------------------------|-----------|
+| 1           | 1st Meeting with the client                         | Obtaining a problem definition, understanding what the situation is                        | 20 min         | September 7            | A         |
+| 2           | Presenting my solution to the client                | Discussing success criterions and getting confirmation                                     | 30 min         | September 10           | A         |
+| 3           | Creating system diagram and sharing with the client | Letting my customer know hardware and software requirements and limitations of my solution | 1 hour         | September 12           | B         |
+| 4           |                                                     |                                                                                            |                |                        |           |
+| 5           |                                                     |                                                                                            |                |                        |           |
+| 6           |                                                     |                                                                                            |                |                        |           |
+| 7           |                                                     |                                                                                            |                |                        |           |
+| 8           |                                                     |                                                                                            |                |                        |           |
