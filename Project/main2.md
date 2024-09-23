@@ -18,11 +18,15 @@ My client also require permanent storage, so to solve this requirement I propose
     The currency converter is capable of converting between 5 currencies.
    **[ISSUE TACKLED]**: `Solved problem`
 1. If the user enters the secret code ("open123"), the program will change modes and act as a password manager.
+    **[ISSUE TACKLED]**: `Solved problem`
 1. In password manager mode, the user should be able to perform CRUD operations (Create, Replace, Update, Delete):
    * Add a password (for example, for a website).
    * View the stored passwords (only if they re-enter the secret code).
+     **[ISSUE TACKLED]**: `Solved problem`
 1. Save passwords permanently and securely
+    **[ISSUE TACKLED]**: `Solved problem`
 1. Use the terminal to interact with the user.
+    **[ISSUE TACKLED]**: `Solved problem`
 
 # Criterion B: Design
 ### System Diagram
