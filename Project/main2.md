@@ -32,7 +32,7 @@ proposed solution. The lock indicates encryption.
 
 
 ### Flow diagrams for algorithms
-![flow](https://github.com/user-attachments/assets/93f4a0fb-66b8-4993-9b3d-b0b47deaeb82)
+
 **Fig. 1** This is the flow diagram for the algorithm used to search in the data file...
 
 ### Data storage
