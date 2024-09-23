@@ -45,4 +45,4 @@ proposed solution. The lock indicates encryption.
 
 ### Test plan
 
-## Record of Tasks
+### Record of Tasks
