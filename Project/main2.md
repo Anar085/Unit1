@@ -32,7 +32,7 @@ My client also require permanent storage, so to solve this requirement I propose
 
 # Criterion B: Design
 ### System Diagram
-![image](https://github.com/user-attachments/assets/20cbe9f2-30df-44e9-bb42-50585cb111cb)
+![image](https://github.com/user-attachments/assets/1e63c665-e508-48f5-a803-a84b725b7b5d)
 
 **Fig 1** System Diagram showing the minimal requirement for the hardware and software used for
 proposed solution. The lock indicates encryption.
