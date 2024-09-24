@@ -46,6 +46,11 @@ proposed solution. The lock indicates encryption.
 **Fig. 2** This is the flow diagram for the algorithm used to search in the data file...
 ![image](https://github.com/user-attachments/assets/d5e1ce20-164d-4b0c-a070-de8421cd32b7)
 **Fig. 3** This is the flow diagram for the algorithm used to search in the data file...
+![image](https://github.com/user-attachments/assets/e656d454-128e-4e09-a91d-ade8c26b3d4c)
+**Fig. 4** This is the flow diagram for the algorithm used to search in the data file...
+
+
+
 
 ### Data storage
 
