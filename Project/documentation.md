@@ -55,7 +55,22 @@ proposed solution. The lock indicates encryption.
 ### Sketches of the application (wireframe diagrams)
 
 ### Test plan
-
+| Test Case | Test Description                                                                                                       | Expected Result                                                                 | Pass/Error |
+|-----------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------|
+| 1         | Enter an invalid currency code (e.g., "EUD")  for the "from" and "to" currency.                                        | Display an error message  indicating invalid currency.                          | Pass       |
+| 2         | Enter an lowercase currency code  (e.g., "usd") for the "from" and "to" currency.                                      | Display an error message indicating  only typing options are in upper case      | Pass       |
+| 3         | Enter an input unrelated to currency codes (e.g., "money")  for the "from" and "to" currency.                          | Display an error message indicating invalid currency.                           | Pass       |
+| 4         | Enter an amount with both numeric and non-numeric characters  (e.g., "100abc") for the amount to convert.              | Display an error message indicating invalid amount.                             | Pass       |
+| 5         | Enter an amount with multiple decimal points  (e.g., "10.12.13") for the amount to convert.                            | Display an error message  indicating invalid amount.                            | Pass       |
+| 6         | Enter an amount with only non-numeric characters  (e.g., "abc.abc") for the amount to convert.                         | Display an error message  indicating invalid amount.                            | Pass       |
+| 7         | Enter the secret code "unique" for the amount to convert.                                                              | Switch to password manager mode.                                                | Pass       |
+| 8         | Enter a number out of range(1-6)  (e.g., "15") for the operation to perform.                                           | Display an error message  indicating invalid operation number.                  | Pass       |
+| 9         | Enter a number in a range(1-6)  (e.g., "5") for the operation to perform.                                              | Properly functions the operation  and asks for an app number                    | Pass       |
+| 10        | Enter an input with non-numeric symbols  (e.g., "23wfjw.9?") for the operation number to perform.                      | Display an error message  indicating invalid operation number.                  | Pass       |
+| 11        | Enter a number out of range(1-8(length of app list))  (e.g., "15") for the app number to perform a selected operation. | Display an error message  indicating invalid app number.                        | Pass       |
+| 12        | Enter a number in a range(1-8(length of app list))  (e.g., "5") for the app number to perform a selected operation.    | Properly operates with selected  application                                    | Pass       |
+| 13        | Enter an input with non-numeric symbols (e.g., "1.rt45?") for the app number to perform a selected operation.          | Display an error message  indicating invalid app number.                        | Pass       |
+| 14        | Enter an existing app name for adding to the password manager                                                          | Display an error message indicating that the app is in already password manager | Pass       |
 ### Record of Tasks
 | Task number | Planned action                                                                                      | Planned outcome                                                                                  | Time estimated | Target completion date | Criterion |
 |-------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------|------------------------|-----------|
