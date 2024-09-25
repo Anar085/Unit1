@@ -20,7 +20,7 @@ My client also require permanent storage, so to solve this requirement I propose
    **[ISSUE TACKLED]**: `The currency converter functions as expected, providing accurate conversions.`
 1. If the user enters the secret code ("uniqueschool2024") as an amount for converting, the program will change modes and act as a password manager.
     **[ISSUE TACKLED]**: `The secret code effectively triggers the hidden functionality.`
-1. In password manager mode, the user should be able to perform CRUD operations (Create, Replace, Update, Delete):
+1. In password manager mode, the user should be able to perform CVUDG operations (Create, View, Update, Delete, Generate):
    * Add a password (for a software application).
    * View the stored passwords (only if they re-enter the secret code).
      **[ISSUE TACKLED]**: `The password manager allows for complete management of stored passwords`
@@ -68,7 +68,7 @@ proposed solution. The lock indicates encryption.
 | 7           | Developing the currency conversion algorithm                                                        | Accurate calculations for various currency pairs                                                 | 4 hours        | September 17           | C         |
 | 8           | Implementing the secret code functionality                                                          | Triggering the password manager mode when the correct code is entered                            | 2 hours        | September 18           | C         |
 | 9           | Design the password manager UI                                                                      | A user-friendly interface for managing passwords                                                 | 1 hour         | September 19           | C         |
-| 10          | Develop password management functionalities (CRUDG)                                                 | Ability to add, view, update, delete, and generate passwords                                     | 6 hours        | September 20           | C         |
+| 10          | Develop password management functionalities (CVUDG)                                                 | Ability to create, view, update, delete, and generate passwords                                     | 6 hours        | September 20           | C         |
 | 11          | Implement password encryption for storage                                                           | Passwords are stored securely in the CSV file                                                    | 3 hours        | September 21           | C         |
 | 12          | Develop user interface for interacting with the application                                         | So user can interact with the program through clear prompts and menus                            | 1 hour         | September 22           | C         |
 | 13          | Unit test the individual functionalities                                                            | Ensure each part of the program works as expected                                                | 2 hours        | September 23           | B         |
