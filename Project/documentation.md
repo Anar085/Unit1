@@ -41,29 +41,11 @@ proposed solution. The lock indicates encryption.
 
 ### Flow diagrams for algorithms
 ![image](https://github.com/user-attachments/assets/8a54209d-3035-45c5-a207-24cc507940b1)
-
 **Fig. 2** This is the flow diagram for the algorithm used in convercy converter.
-
 ![image](https://github.com/user-attachments/assets/edbfc121-7145-405d-8321-4969ba1b51c8)
-
-
 **Fig. 3** This is the flow diagram for the algorithm used in password manager.
 
-![image](https://github.com/user-attachments/assets/e656d454-128e-4e09-a91d-ade8c26b3d4c)
-
-**Fig. 4** This is the flow diagram for the algorithm used in "view" operation.
-
-![image](https://github.com/user-attachments/assets/a0e2b495-ec4b-49af-917e-b1fe2643b83c)
-
-**Fig. 5** This is the flow diagram for the algorithm used in "edit" operation.
-
-![image](https://github.com/user-attachments/assets/ce3ea645-e360-4ce3-b52f-f7b5d9c7b6ea)
-
-**Fig. 6** This is the flow diagram for the algorithm used in "add" operation.
-
-![image](https://github.com/user-attachments/assets/9d5e2ec7-cd02-4a4e-8b8b-fe3272ceab4a)
-
-**Fig. 7** This is the flow diagram for the algorithm used in "remove" operation.
+**Fig. 4** This is the flow diagram for the algorithm used in "remove" operation.
 
 
 
