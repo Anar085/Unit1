@@ -53,7 +53,7 @@ proposed solution. The lock indicates encryption.
 ### Data storage
 ![image](https://github.com/user-attachments/assets/97bb39b3-5f00-4b83-a370-813eb7f7c2fe)
 
-**Fig. 5**I am proposing to use .csv file to store the encrytped information. CSV files are a simple and widely used format for storing tabular data. They are essentially text files where data is separated by commas, making them easy to read, write, and understand by both humans and computers. This simplicity makes it easier to manage and edit the stored data if necessary. Additionally, .csv files are widely supported by various software applications, ensuring compatibility with different tools that teachers might use to access and manage their passwords. These are the reasons for choosing .csv file.
+**Fig. 5**I am proposing to use .csv file to store the encrytped information as CSV files are a simple and widely used format for storing tabular data. They are essentially text files where data is separated by commas, making them easy to read, write, and understand by both humans and computers. This simplicity makes it easier to manage and edit the stored data if necessary. Additionally, .csv files are widely supported by various software applications, ensuring compatibility with different tools that teachers might use to access and manage their passwords. These are the reasons for choosing .csv file.
 ### Sketches of the application (wireframe diagrams)
 ![image](https://github.com/user-attachments/assets/5d244887-32f6-43aa-a06c-95f568235bbc)
 
