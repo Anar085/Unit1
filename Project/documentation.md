@@ -40,7 +40,7 @@ proposed solution. The lock indicates encryption.
 
 
 ### Flow diagrams for algorithms
-![image](https://github.com/user-attachments/assets/8a90c79d-7f18-4e4c-929f-9f0f425022ac)
+![image](https://github.com/user-attachments/assets/8a54209d-3035-45c5-a207-24cc507940b1)
 
 **Fig. 2** This is the flow diagram for the algorithm used in convercy converter.
 
