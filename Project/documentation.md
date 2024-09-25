@@ -53,6 +53,7 @@ proposed solution. The lock indicates encryption.
 ### Data storage
 
 ### Sketches of the application (wireframe diagrams)
+![image](https://github.com/user-attachments/assets/5d244887-32f6-43aa-a06c-95f568235bbc)
 
 ### Test plan
 | Test Case | Test Description                                                                                                       | Expected Result                                                                 | Pass/Error |
