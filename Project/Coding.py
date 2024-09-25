@@ -1,4 +1,3 @@
-```.py
 
 
 banner = """⠀⠀⠀⠀⠀⠀
@@ -295,9 +294,3 @@ amount_original = float(amount_original)
 converted_amount = amount_original * exchange_rates[from_currency_unsafe][to_currency_unsafe]
 print(f"{amount_original} {from_currency_unsafe} is equal to {converted_amount} {to_currency_unsafe}{end_code}")
 print(f"{bkr}{black}Thank you for using our services! {end_code}")
-
-
-
-
-
-```
