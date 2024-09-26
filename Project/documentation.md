@@ -40,7 +40,7 @@ proposed solution. The lock indicates encryption.
 
 
 ### Flow diagrams for algorithms
-![image](https://github.com/user-attachments/assets/8a54209d-3035-45c5-a207-24cc507940b1)
+![image](https://github.com/user-attachments/assets/9400ebb6-63dd-452b-8b90-4e978a4c2164)
 **Fig. 2** This flow diagram desribes the steps involved in converting one currency to another. The user inputs the "from" and "to" currencies, and the amount to convert. Then the program validates amount input for preventing errors and crash. The program then gets the exchange rate from a fixed dictionary, performs the calculation, and displays the converted amount to the user. And also, if user enters the secret code it activates Password Manager.                                            
 ![image](https://github.com/user-attachments/assets/acbf2813-ae51-43bd-b6f6-1a58c6540bae)
 **Fig. 3** This flow diagram shows the functionality of the password manager. The user can perform various operations such as adding, viewing, editing, removing, or generating passwords. The program interacts with a database to perform operations above. Security measure to protect sensitive data is encrypting them reversely.
