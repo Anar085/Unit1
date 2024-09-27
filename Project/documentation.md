@@ -32,7 +32,7 @@ My client also require permanent storage, so to solve this requirement I propose
 ![image](https://github.com/user-attachments/assets/82d4bbea-9973-41dc-b0ba-20ed9978c34e)
 
 **Fig 1** System Diagram showing the minimal requirement for the hardware and software used for
-proposed solution. The lock indicates encryption.
+proposed solution. The lock indicates reverse encryption.
 
 
 
