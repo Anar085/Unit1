@@ -20,10 +20,7 @@ My client also require permanent storage, so to solve this requirement I propose
    **[ISSUE TACKLED]**: `The currency converter functions as expected, providing accurate conversions.`
 1. If the user enters the secret code ("uniqueschool2024") as an amount for converting, the program will change modes and act as a password manager.
     **[ISSUE TACKLED]**: `The secret code effectively triggers the hidden functionality.`
-1. In password manager mode, the user should be able to perform CVUDG operations (Create, View, Update, Delete, Generate):
-   * Add a password (for a software application).
-   * View the stored passwords (only if they re-enter the secret code).
-     **[ISSUE TACKLED]**: `The password manager allows for complete management of stored passwords`
+1. In password manager mode, the user should be able to perform CVUDG operations (Create, View, Update, Delete, Generate):**[ISSUE TACKLED]**: `The password manager allows for complete management of stored passwords`
 1. Save passwords permanently and store them encrypted
     **[ISSUE TACKLED]**: `The .csv file provides a certain level of security for storing sensitive information`
 1. Use the terminal to interact with the user.
