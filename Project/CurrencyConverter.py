@@ -1,6 +1,5 @@
-
-
-banner = """⠀⠀⠀⠀⠀⠀
+import random
+banner = """
        ⣠⡤⢤⡄⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣾⣿⠂⠀⣇⣀⠀⠀⠀
 ⠀⠀⠀⣠⠖⠉⠀⠀⠀⠀⠀⠉⠙⢢
@@ -86,11 +85,13 @@ while terminate3:
 
         WELCOME TO THE PASSWORD MANAGER !!!
         Available operations:
-        1. View the passwords of applications (type "view")
-        2. Add a new application and its password (type "add")
-        3. Remove an existing application and its password (type "remove")
-        4. Edit an existing application and its password (type "edit")
-        5. Stop the application (type "stop")
+        1. View the passwords of applications (type 1)
+        2. Add a new application and its password (type 2)
+        3. Remove an existing application and its password (type 3)
+        4. Edit an existing application and its password (type 4)
+        5. Generate a new password for selected app (type 5)
+        5. Stop the application (type 6)
+    For immediate exit type "stop".
 Here is the list of software applications for only teachers:
         """
 
@@ -111,7 +112,6 @@ Here is the list of software applications for only teachers:
 
         for x in range(len(lst)):
             print(f"{x + 1}.{lst[x]}")
-
 
         def inputvalidation(num: str):
             s = 0
@@ -141,9 +141,9 @@ Here is the list of software applications for only teachers:
             app_unsafe = input(f"Which operation you want to perform: ")
             app_requested = app_unsafe
 
-            if app_requested == "stop":
+            if app_requested == "6":
                 terminate = False
-            elif app_requested == "add":
+            elif app_requested == "2":
                 end_code = "\033[00m"
                 red = "\33[0;31m"
                 term = True
@@ -167,7 +167,7 @@ Here is the list of software applications for only teachers:
                 print("Operation completed")
                 with open('database.csv', 'a') as f:
                     f.writelines([f"\n{str(app2)} ,{str(pass2)}\n"])
-            elif app_requested == "remove":
+            elif app_requested == "3":
                 for i, item in enumerate(data):
                     clean_item = item.strip('\n')
                     app, password = clean_item.split(',')
@@ -190,6 +190,7 @@ Here is the list of software applications for only teachers:
                         for i, item in enumerate(data):
                             if i + 1 != delete:
                                 new_data.append(item)
+
                         tr4 = False
                         print("Operation completed")
                     else:
@@ -207,7 +208,12 @@ Here is the list of software applications for only teachers:
                     pass1.reverse()
                     pass1 = "".join(pass1)
                     catalog[app1] = pass1
-            elif app_requested == "view":
+                r = lst[delete - 1]
+                r = list(r)
+                r.reverse()
+                r = "".join(r)
+                del catalog[r]
+            elif app_requested == "1":
                 tr = True
                 while tr:
                     num = input("Enter the number of the application: ")
@@ -230,7 +236,7 @@ Here is the list of software applications for only teachers:
                 p.reverse()
                 p = "".join(p)
                 print(f"Password of the {a1} is {p}")
-            elif app_requested == "edit":
+            elif app_requested == "4":
                 tr4 = True
                 while tr4:
                     number = input("Enter the number of the application to edit: ")
@@ -267,6 +273,51 @@ Here is the list of software applications for only teachers:
                 del catalog[r]
 
                 print("Operation completed.")
+
+            elif app_requested == "5":
+                tr5 = True
+                while tr5:
+                    number5 = input("Enter the number of the application to generate password for: ")
+                    if number5 == "stop":
+                        exit(f"{bkr}{black}Thank you for using our services!{end_code}")
+                    num = number5
+                    m4 = inputvalidation(num)
+                    if m4 == False:
+                        tr5 = False
+                    else:
+                        tr5 = True
+                number5 = int(num)
+                tr6=True
+                while tr6:
+                    l = input("Enter the length of password: ")
+                    if l in '0123456789':
+                        tr6 = False
+                    else:
+                        print("Invalid number, please try again.")
+                symbols = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?#%*@$^()'
+                generated_pass=""
+                l=int(l)
+                for i in range(l):
+                    num1 = random.randint(0, 72)
+                    generated_pass += str(symbols[num1])
+                y = lst[number5 - 1]
+                y = list(y)
+                y.reverse()
+                y = "".join(y)
+                generated_pass=list(generated_pass)
+                generated_pass.reverse()
+                generated_pass = "".join(generated_pass)
+                data[number5 - 1] = f"{y},{generated_pass}\n"
+                with open('database.csv', 'w') as f:
+                    f.writelines(data)
+
+
+                catalog[y]=generated_pass
+                print("Operation completed")
+
+
+
+
 
 
             else:
