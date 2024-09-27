@@ -16,7 +16,7 @@ My client also require permanent storage, so to solve this requirement I propose
 
 ## Success criteria:
 1. Basic Currency Converter Functionality:
-    The currency converter is capable of converting between 5 currencies.
+    The currency converter is capable of converting between 4 currencies.
    **[ISSUE TACKLED]**: `The currency converter functions as expected, providing accurate conversions.`
 1. If the user enters the secret code ("uniqueschool2024") as an amount for converting, the program will change modes and act as a password manager.
     **[ISSUE TACKLED]**: `The secret code effectively triggers the hidden functionality.`
