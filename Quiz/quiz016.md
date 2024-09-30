@@ -1,4 +1,4 @@
-# Quiz 005
+# Quiz 016
 
 ## Paper solution
 ![IMG_0266](https://github.com/user-attachments/assets/d864f0e8-f175-4e35-a983-f55205837e1d)
