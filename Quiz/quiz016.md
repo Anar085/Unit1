@@ -26,11 +26,10 @@ print(m)
 
 ## Proof of work
 
-
 ![SCquiz 16](https://github.com/user-attachments/assets/104ca583-25c2-4f75-929a-4058c84a7491)
-
 
 ## Algorithm flow
 
+![image](https://github.com/user-attachments/assets/f2a27f30-3823-47a2-aa15-cc16390c8592)
 
 
