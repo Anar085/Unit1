@@ -33,6 +33,7 @@ print(f"Average length is {m}, if spaces are not counted")
 ![image](https://github.com/user-attachments/assets/e40554e1-3059-44a3-adc1-4cf0d0a960aa)
 
 ## Algorithm flow
+![image](https://github.com/user-attachments/assets/3c2b09e6-480f-41fd-a620-810586e0b5a2)
 
 
 
