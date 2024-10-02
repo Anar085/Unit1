@@ -18,8 +18,4 @@ print(m)
 
 
 ## Algorithm flow
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/80387130-7598-4dde-8347-0edaae5c0384)
