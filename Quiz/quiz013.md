@@ -1,9 +1,7 @@
 # Quiz 013
 
 ## Paper solution
-
-
-![IMG_0272](https://github.com/user-attachments/assets/e0010607-7d8e-4bab-b905-cea044ad4471)
+![IMG_0272](https://github.com/user-attachments/assets/ad37fddd-3e9f-4add-8cb3-bddb0ae4d8a0)
 
 ## Code
 ```.py
