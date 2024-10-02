@@ -2,6 +2,9 @@
 
 ## Paper solution
 
+
+![IMG_0272](https://github.com/user-attachments/assets/e0010607-7d8e-4bab-b905-cea044ad4471)
+
 ## Code
 ```.py
 
