@@ -1,6 +1,7 @@
 # Quiz 009
 
 ## Paper solution
+![IMG_0276](https://github.com/user-attachments/assets/8e320f55-fb85-4a32-ae6d-6cbaec850e11)
 
 ## Code
 ```.py
