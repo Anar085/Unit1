@@ -39,5 +39,6 @@ print(output)
 
 ## Algorithm flow
 
+![image](https://github.com/user-attachments/assets/b5829c40-c70b-4b16-82d3-f987dfb8c207)
 
 
