@@ -14,13 +14,13 @@ def calendar(month: str):
         return
 
     months= {
-        "January": (31, 0),
-        "February": (28, 1),
+        "January": (31,6),
+        "February": (29,2),
         "March": (31, 3),
-        "April": (30, 0),
+        "April": (30, 6),
         "May": (31, 1),
         "June": (30, 4),
-        "July": (31, 0),
+        "July": (31, 6),
         "August": (31, 2),
         "September": (30, 5),
         "October": (31, 0),
@@ -37,11 +37,10 @@ def calendar(month: str):
 month = input("Enter the month for calendar: ")
 calendar(month)
 
-
 ```
 
 ## Proof of work
-![image](https://github.com/user-attachments/assets/04efb13b-79e7-4f63-bd94-f27b064bfcd7)
+![image](https://github.com/user-attachments/assets/e0890214-06c3-43a6-b96b-6e5917f908a6)
 
 
 ## Algorithm flow
