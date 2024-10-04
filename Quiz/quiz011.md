@@ -1,6 +1,7 @@
 # Quiz 011
 
 ## Paper solution
+![WhatsApp Image 2024-10-04 at 16 51 53_de634547](https://github.com/user-attachments/assets/5b379617-b530-474d-b7ac-bfdcdfc1547a)
 
 ## Code
 ```.py
