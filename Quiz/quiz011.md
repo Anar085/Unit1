@@ -45,6 +45,7 @@ calendar(month)
 
 ## Algorithm flow
 
+![image](https://github.com/user-attachments/assets/578ee162-5a92-4629-984c-2d180731bfc1)
 
 
 
