@@ -4,82 +4,44 @@
 
 ## Code
 ```.py
-
 def calendar(month: str):
-    all_months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+    allmonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
                   "November", "December"]
-    week_days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
-    if month not in all_months:
+    weekdays = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]
+
+    if month not in allmonths:
         print("Invalid month")
-    if month == "January":
-        for i in range(1, 32):
-            t = i % 7
-            print(i, week_days[t - 1], end=" ")
-    elif month == "February":
-        for i in range(1, 30):
-            t = i % 7
-            t=(t+1)%7
-            print(i, week_days[t ], end=" ")
-    elif month == "March":
-        for i in range(1, 32):
-            t = i % 7
-            t = (t + 3) % 7
-            print(i, week_days[t ], end=" ")
-    elif month == "April":
-        for i in range(1, 31):
-            t = i % 7
-            print(i, week_days[t-1 ], end=" ")
-    elif month == "May":
-        for i in range(1, 32):
-            t = i % 7
-            t = (t + 1) % 7
-            print(i, week_days[t ], end=" ")
-    elif month == "June":
-        for i in range(1, 31):
-            t = i % 7
-            t = (t + 4) % 7
-            print(i, week_days[t], end=" ")
-    elif month == "July":
-        for i in range(1, 32):
-            t = i % 7
+        return
 
-            print(i, week_days[t -1], end=" ")
-    elif month == "August":
-        for i in range(1, 32):
-            t = i % 7
-            t = (t + 2) % 7
-            print(i, week_days[t - 1], end=" ")
-    elif month == "September":
-        for i in range(1, 31):
-            t = i % 7
-            t = (t + 5) % 7
-            print(i, week_days[t - 1], end=" ")
-    elif month == "October":
-        for i in range(1, 32):
-            t = i % 7
-            print(i, week_days[t ], end=" ")
-    elif month == "November":
-        for i in range(1, 31):
-            t = i % 7
-            t = (t + 3) % 7
-            print(i, week_days[t - 1], end=" ")
-    elif month == "December":
-        for i in range(1, 32):
-            t = i % 7
-            t = (t + 5) % 7
-            print(i, week_days[t - 1], end=" ")
-month=input("Enter the month")
-c=calendar(month)
-print(c)
+    months= {
+        "January": (31, 0),
+        "February": (28, 1),
+        "March": (31, 3),
+        "April": (30, 0),
+        "May": (31, 1),
+        "June": (30, 4),
+        "July": (31, 0),
+        "August": (31, 2),
+        "September": (30, 5),
+        "October": (31, 0),
+        "November": (30, 3),
+        "December": (31, 5)
+    }
 
+    daysnumber, firstday = months[month]
 
+    for i in range(1, daysnumber + 1):
+        t = (i + firstday) % 7
+        print(i,weekdays[t],end=" ")
 
+month = input("Enter the month for calendar: ")
+calendar(month)
 
 
 ```
 
 ## Proof of work
-![image](https://github.com/user-attachments/assets/97b01069-55aa-4c40-8f69-487d2900e468)
+![image](https://github.com/user-attachments/assets/04efb13b-79e7-4f63-bd94-f27b064bfcd7)
 
 
 ## Algorithm flow
