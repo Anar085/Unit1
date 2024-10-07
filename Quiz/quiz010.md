@@ -1,6 +1,7 @@
 # Quiz 010
 
 ## Paper solution
+![Image](https://github.com/user-attachments/assets/2ac75edc-fce1-477a-ba89-f35921d2dc1a)
 
 ## Code
 ```.py
@@ -50,5 +51,6 @@ print(powersTen("5 gram of salt"))
 ## Algorithm flow
 
 
+![image](https://github.com/user-attachments/assets/d2a4bed7-f910-48ba-9502-75329de4a1be)
 
 
